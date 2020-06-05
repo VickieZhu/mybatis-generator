@@ -17,7 +17,16 @@ public class TAdmin {
         return id;
     }
 
-    public void setId(Integer id) {
+    public TAdmin(Integer id, String loginAcct, String userPswd, String userName, String email, String createTime) {
+		this.id = id;
+		this.loginAcct = loginAcct;
+		this.userPswd = userPswd;
+		this.userName = userName;
+		this.email = email;
+		this.createTime = createTime;
+	}
+
+	public void setId(Integer id) {
         this.id = id;
     }
 
