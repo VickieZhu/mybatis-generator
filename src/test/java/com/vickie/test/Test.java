@@ -3,7 +3,6 @@ package com.vickie.test;
 import java.util.List;
 
 import com.vickie.dao.TAdminDao;
-import com.vickie.mapper.TAdminMapper;
 import com.vickie.pojo.TAdmin;
 
 public class Test {
@@ -16,7 +15,8 @@ public class Test {
 		List<TAdmin> tAdmins= tAdminDao.selectAll();
 		System.out.println(tAdmins.size());
 		TAdmin tAdmin= tAdmins.get(0);
-		System.out.println(tAdmin.getLoginAcct());
+		System.out.println("LoginAcct:"+tAdmin.getLoginAcct());
+		System.out.println("UserName:"+tAdmin.getUserName());
 	}
 
 }
