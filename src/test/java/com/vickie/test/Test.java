@@ -21,6 +21,8 @@ public class Test {
 		System.out.println("UserName:"+tAdmin.getUserName());
 		System.out.println("Email:"+tAdmin.getEmail());
 		System.out.println("-------------------------");
+		System.out.println("CreateTime:"+tAdmin.getCreateTime());
+		System.out.println("UserPassword:"+tAdmin.getUserPswd());
 	}
 
 }
