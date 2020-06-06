@@ -16,6 +16,7 @@ public class Test {
 		System.out.println(tAdmins.size());
 		TAdmin tAdmin= tAdmins.get(0);
 		System.out.println("UserInfo==============");
+		System.out.println("Id:"+tAdmin.getId());
 		System.out.println("LoginAcct:"+tAdmin.getLoginAcct());
 		System.out.println("UserName:"+tAdmin.getUserName());
 	}
