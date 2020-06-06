@@ -19,6 +19,7 @@ public class Test {
 		System.out.println("Id:"+tAdmin.getId());
 		System.out.println("LoginAcct:"+tAdmin.getLoginAcct());
 		System.out.println("UserName:"+tAdmin.getUserName());
+		System.out.println("Email:"+tAdmin.getEmail());
 	}
 
 }
